@@ -1,0 +1,13 @@
+function calcularPromedio(arreglo) {
+    let suma = 0;
+    for (let i = 0; i < arreglo.length; i++) {
+      suma += arreglo[i];
+    }
+    const promedio = suma / arreglo.length;
+    return promedio;
+  }
+  
+  const arreglo = [1, 2, 3, 4, 5, 6, 7, 8];  // Se puede cambiar el arreglo según lo que se necesite de extensión
+  const resultado = calcularPromedio(arreglo);
+  console.log("El promedio es: " + resultado);
+  
